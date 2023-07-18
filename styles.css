@@ -1,0 +1,65 @@
+html,
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-height: 275px;
+  border: none;
+  z-index: 1;
+  border-bottom: 2px solid;
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+p {
+  display: block;
+}
+
+article {
+  display: block;
+  margin: 15px;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
